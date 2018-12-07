@@ -6,7 +6,7 @@
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 
   <title>Github activity paint</title>
-  
+
   <style media="screen">
     body {
       font-family: 'Noto Sans', sans-serif;
@@ -21,9 +21,14 @@
       padding: 30px;
     }
 
+    .svg-calendar-wrap {
+      max-width: 100%;
+      overflow-x: auto;
+    }
+
     h1 {
       margin-bottom: 0;
-      line-height: 1.3;
+      line-height: 1.1;
       font-size: 52px;
       color: #333;
     }
@@ -109,27 +114,32 @@
     <h1>Github activity paint</h1>
     <p>Click through the rectangles to change their color.</p>
 
-    <svg width="563" height="88" class="js-calendar-graph-svg">
-      <g transform="translate(16, 20)" id="js-calendar-graph-inner">
 
-        <text x="11" y="-8" class="month">Dec</text>
-        <text x="61" y="-8" class="month">Jan</text>
-        <text x="101" y="-8" class="month">Feb</text>
-        <text x="141" y="-8" class="month">Mar</text>
-        <text x="181" y="-8" class="month">Apr</text>
-        <text x="231" y="-8" class="month">May</text>
-        <text x="271" y="-8" class="month">Jun</text>
-        <text x="311" y="-8" class="month">Jul</text>
-        <text x="361" y="-8" class="month">Aug</text>
-        <text x="401" y="-8" class="month">Sep</text>
-        <text x="451" y="-8" class="month">Oct</text>
-        <text x="491" y="-8" class="month">Nov</text>
-        <text text-anchor="start" class="wday" dx="-12" dy="17">Mon</text>
-        <text text-anchor="start" class="wday" dx="-12" dy="37">Wed</text>
-        <text text-anchor="start" class="wday" dx="-12" dy="57">Fri</text>
+    <div class="svg-calendar-wrap">
+      <svg width="563" height="88" class="js-calendar-graph-svg">
+        <g transform="translate(16, 20)" id="js-calendar-graph-inner">
 
-      </g>
-    </svg>
+          <text x="11" y="-8" class="month">Dec</text>
+          <text x="61" y="-8" class="month">Jan</text>
+          <text x="101" y="-8" class="month">Feb</text>
+          <text x="141" y="-8" class="month">Mar</text>
+          <text x="181" y="-8" class="month">Apr</text>
+          <text x="231" y="-8" class="month">May</text>
+          <text x="271" y="-8" class="month">Jun</text>
+          <text x="311" y="-8" class="month">Jul</text>
+          <text x="361" y="-8" class="month">Aug</text>
+          <text x="401" y="-8" class="month">Sep</text>
+          <text x="451" y="-8" class="month">Oct</text>
+          <text x="491" y="-8" class="month">Nov</text>
+          <text text-anchor="start" class="wday" dx="-12" dy="17">Mon</text>
+          <text text-anchor="start" class="wday" dx="-12" dy="37">Wed</text>
+          <text text-anchor="start" class="wday" dx="-12" dy="57">Fri</text>
+
+        </g>
+      </svg>
+    </div>
+
+
   </div>
 
 
