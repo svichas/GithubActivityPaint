@@ -1,1 +1,3 @@
 # GithubActivityPaint
+
+![GithubActivityPaint](screenshot.png)
